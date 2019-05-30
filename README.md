@@ -1,6 +1,6 @@
 # list-of-software
 
-This repo is simply a list of all of the software we use and/or would LIKE to use...
+This repo is simply a list of all of the software we curenntly use and/or would LIKE to use...
 
 ## Currently in use:
 To convert DICOMs to nifti format:  
@@ -12,17 +12,18 @@ To trace lesions:
 
 To register lesions to MNI space (if traced on patient anatomy):  
 - https://github.com/ANTsX/ANTs  
-  - [ ] add link to my simple lesion warp scripts
 
 To convert fMRI files into BIDS format:  
 - https://github.com/jmtyszka/bidskit  
 
 To preprocess fMRI data and generate regressors:  
 - https://github.com/poldracklab/fmriprep  
-  - [ ] add link to Louis' post-processing script  
+
+Analysis is done in python or matlab/octave through the use of jupyter notebooks, instantiated through dockers based on:
+- https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook
 
 To perform statistical analyses using our notebooks:
-- [ ] add nistat
+- https://github.com/neurolabusc/NiiStat
 - https://github.com/nicholst/BSGLMM  
   - Documentation: https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/nichols/software/bsglmm/manual/
 - https://github.com/andersonwinkler/PALM  
