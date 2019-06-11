@@ -14,7 +14,9 @@ To convert DICOMs to nifti format:
 - https://github.com/ANTsX/ANTs  
 
 ### To convert fMRI files into BIDS format:  
-- https://github.com/jmtyszka/bidskit  
+- https://github.com/jmtyszka/bidskit
+- https://github.com/Donders-Institute/bidscoin
+- https://github.com/ellisdg/BIDSManager (This can be used to re-organize nifti files by using a csv list/table)  
 
 ### To preprocess fMRI data and generate regressors:  
 - https://github.com/poldracklab/fmriprep  
